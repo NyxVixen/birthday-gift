@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "shadows";
+  src: url(shadows-into-light-two.regular.ttf);
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#9381ff, #a480f2, #fab4c8);
+    color: #daf5fe;
+    font-family: shadows;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 8px black;
+}
+
+#bff-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #bcb6f6;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #a5adff;
+    box-shadow: 0 0 15px #c580ed;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #a5adff;
+    box-shadow: 0 0 15px #c580ed;
+    padding: 5px 10px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #cfb9f7;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/DhstvI3zZ598Nb1rFf/giphy-downsized-large.gif");
+    background-position: center;
+    transition: 200ms;
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/13CzGRFh7qUxQA/giphy.gif");
+    background-position: center;
+    transition: 200ms;
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/B3ETOq2MtxqOQ/giphy.gif");
+    background-position: center;
+    transition: 200ms;
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/wKyJumgj6sVGH8xRyw/giphy-downsized-large.gif");
+    background-position: center;
+    transition: 200ms;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/Zw3oBUuOlDJ3W/giphy.gif");
+    background-position: center;
+    transition: 200ms;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
