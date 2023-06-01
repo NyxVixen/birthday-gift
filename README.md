@@ -19,3 +19,13 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+
+
+**Birthday GIFt Project**
+
+This project was created through a learning on Scrimba.com as part of the frontend developer path. 
+The inention of creating this was to help familiarize/hone my skills with CSS and HTML basics. When hovering over the "GIFts", a gif should come up and play appropriately without any issues. All elements should be well placed and centered accordingly. I am aware that the image is more of an oval shape as opposed to the preferred circle shape. I did this due to the resolution of the photo provided to me by my friend for this project.
+
+In order to run this project locally, you will need to clone the repository, and run the npm install in the bash / command line. Once you have run npm install, you will need to run npm run dev in the bash / command line.
+
+**The only dependency you may need for this is Babel**
