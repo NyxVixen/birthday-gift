@@ -16,7 +16,8 @@ h1, h2, h3, h4, p {
 
 #bff-img {
     width: 200px;
-    height: 150px;
+    height: 200px;
+    transform: rotate(-75deg);
     border-radius: 50%;
     border: 6px solid #bcb6f6;
     margin-bottom: 10px;
